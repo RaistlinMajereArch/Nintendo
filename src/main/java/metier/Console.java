@@ -14,8 +14,20 @@ public class Console {
 		this.date_sortie = date_sortie;
 	}
 
-	public Console(String nom) {
-		this.nom = nom;
+	public double getPrix() {
+		return prix;
+	}
+
+	public void setPrix(double prix) {
+		this.prix = prix;
+	}
+
+	public LocalDate getDate_sortie() {
+		return date_sortie;
+	}
+
+	public void setDate_sortie(LocalDate date_sortie) {
+		this.date_sortie = date_sortie;
 	}
 
 	public String getNom() {
@@ -28,7 +40,7 @@ public class Console {
 
 	@Override
 	public String toString() {
-		return "Console [nom=" + nom + "]";
+		return "Console [nom=" + nom + ", prix=" + prix + ", date_sortie=" + date_sortie + "]";
 	}
 	
 	
