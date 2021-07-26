@@ -1,8 +1,18 @@
 package metier;
 
+import java.time.LocalDate;
+
 public class Console {
 
 	private String nom;
+	private double prix;
+	private LocalDate date_sortie;
+
+	public Console(String nom, double prix, LocalDate date_sortie) {
+		this.nom = nom;
+		this.prix = prix;
+		this.date_sortie = date_sortie;
+	}
 
 	public Console(String nom) {
 		this.nom = nom;
