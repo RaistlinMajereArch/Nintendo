@@ -42,5 +42,4 @@ public abstract class Console {
 		return "Console [nom=" + nom + ", prix=" + prix + ", date_sortie=" + date_sortie + "]";
 	}
 	
-	
 }
