@@ -14,9 +14,10 @@ public class Test {
 		Jeu jeu1= new Jeu("Mario 64",console1);
 		Jeu jeu2= new Jeu("GoldenEye",console1);
 		Jeu jeu3= new Jeu("Zelda Skyward Sword",console2);
-		Jeu jeu4= new Jeu("Metroid Prime 4",console1);
+		Jeu jeu4= new Jeu("Metroid Prime 4",console2);
 		Jeu jeu5= new Jeu("Smash Bros Ultimate",console3);
 		
+
 		
 	}
 
